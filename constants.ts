@@ -10,7 +10,7 @@ import { LearningActivity, PerformanceStatus } from './types';
 // 6. Set 'Execute as' to 'Me'.
 // 7. Set 'Who has access' to 'Anyone'.
 // 8. Click 'Deploy' and copy the 'Web app URL'.
-export const GOOGLE_APPS_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL_HERE'; 
+export const GOOGLE_APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyKL5eguBgO9ZeMvEZ8D-MhBJSXvwtYPUTyVS3OBmK96FQ7XiEiskmZxtDb1tf9VcU4/exec'; 
 
 export const LEARNING_ACTIVITY_OPTIONS = [
   { value: '', label: '학습 활동 선택', disabled: true },

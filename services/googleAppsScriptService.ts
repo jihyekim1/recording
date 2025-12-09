@@ -2,7 +2,7 @@ import { SubmissionData } from '../types';
 import { GOOGLE_APPS_SCRIPT_URL } from '../constants';
 
 export const sendDataToGoogleAppsScript = async (data: SubmissionData): Promise<void> => {
-  if (GOOGLE_APPS_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbwxUF85aLYt0Pcz8IdFiDTHitp-dGNZ6estyQU5kAt5y6Mv99MTjTkB81eyCQIrVCpI/exec') {
+  if (GOOGLE_APPS_SCRIPT_URL === 'https://script.google.com/macros/s/AKfycbyKL5eguBgO9ZeMvEZ8D-MhBJSXvwtYPUTyVS3OBmK96FQ7XiEiskmZxtDb1tf9VcU4/exec') {
     throw new Error(
       'Google Apps Script URL is not configured. Please update constants.ts with your deployed URL.',
     );
