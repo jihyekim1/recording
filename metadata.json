@@ -1,0 +1,5 @@
+{
+  "name": "Student Activity Logger",
+  "description": "A web application for students to log their learning activities, sending data to a Google Apps Script.",
+  "requestFramePermissions": []
+}
